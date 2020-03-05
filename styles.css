@@ -1,11 +1,11 @@
 :root {
   --main-yellow: #fbc514;
-  --main-blue: hsl(191, 72%, 56%);
+  --main-blue: #0c0c0c;
   --fp: #bc1a50;
   --main-text: #000;
   --link-text: #fff;
 }
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 
 * {
   box-sizing: border-box;
@@ -15,6 +15,7 @@
 
 body {
   width: 100%;
+  font-family: 'Comfortaa', cursive;
 }
 
 /* Top Header Nav */
@@ -29,8 +30,8 @@ header.top {
   height: 25px;
   align-content: center;
   align-items: center;
-  font-size: 0.8rem;
-  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.7rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header.top p {
