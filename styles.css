@@ -1,0 +1,61 @@
+:root {
+  --main-yellow: #fbc514;
+  --main-blue: hsl(191, 72%, 56%);
+  --fp: #bc1a50;
+  --main-text: #000;
+  --link-text: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+/* Top Header Nav */
+div.border {
+  background-color: rgba(200, 200, 200, 0.5);
+}
+header {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  height: 25px;
+  align-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header p {
+  padding: 0 50px 0 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 200px;
+}
+
+ul li {
+  padding: 0 10px;
+}
+
+ul li i {
+  padding: 0 4px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 2px;
+}
+
+ul li a:hover {
+  border-bottom: 2px black solid;
+}
