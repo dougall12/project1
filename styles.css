@@ -139,3 +139,97 @@ ul.section-links li a:hover {
   border-right: none;
   border-bottom: 2px solid var(--main-blue);
 }
+
+/* Main Body Cards */
+
+section.cards {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 10px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1em;
+}
+
+.card-container1 {
+  grid-column: 1/6;
+}
+.card-container2 {
+  grid-column: 6/11;
+}
+section.cards > div {
+  background-color: #eeeeee;
+  padding: 10px;
+}
+
+section.cards div img {
+  width: 100%;
+}
+
+section.cards div h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.vertical-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+div.tab-container {
+  display: flex;
+  justify-items: center;
+}
+
+div.tab-container div {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+div.tab-container div:hover h1 {
+  color: white;
+}
+
+#teamwear-tab {
+  background-color: red;
+  color: var(--main-yellow);
+  z-index: 15;
+  position: relative;
+}
+
+#workwear-tab {
+  background-color: blue;
+  color: var(--main-yellow);
+  z-index: 10;
+  margin: 0 0 0 -5px;
+  position: relative;
+}
+
+#schoolwear-tab {
+  background-color: green;
+  color: var(--main-yellow);
+  z-index: 5;
+  margin: 0 0 0 -5px;
+  position: relative;
+}
+
+#customs-tab {
+  background-color: var(--fp);
+  color: var(--main-yellow);
+  z-index: 1;
+  margin: 0 0 0 -5px;
+  position: relative;
+}
+
+#workwear-content1,
+#workwear-content2 {
+  display: none;
+}
+
+div.active h1 {
+  color: white;
+}
