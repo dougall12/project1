@@ -190,6 +190,10 @@ div.tab-container div {
   cursor: pointer;
 }
 
+div.tab-container div h1 {
+  pointer-events: none;
+}
+
 div.tab-container div:hover h1 {
   color: white;
 }
@@ -198,31 +202,24 @@ div.tab-container div:hover h1 {
   background-color: red;
   color: var(--main-yellow);
   z-index: 15;
-  position: relative;
 }
 
 #workwear-tab {
   background-color: blue;
   color: var(--main-yellow);
   z-index: 10;
-  margin: 0 0 0 -5px;
-  position: relative;
 }
 
 #schoolwear-tab {
   background-color: green;
   color: var(--main-yellow);
   z-index: 5;
-  margin: 0 0 0 -5px;
-  position: relative;
 }
 
 #customs-tab {
   background-color: var(--fp);
   color: var(--main-yellow);
   z-index: 1;
-  margin: 0 0 0 -5px;
-  position: relative;
 }
 
 #workwear-content1,
